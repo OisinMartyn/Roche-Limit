@@ -13,3 +13,23 @@ body{
 
 }
 
+.sizes{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(114, 188, 245);
+    padding: 5px;
+
+}
+
+.sizes > div{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+
+
+
