@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Roche Limit</title>
+    <title>Roche Limit Calculator</title>
     <link rel="stylesheet" href="radiusStyleSheet.css">
 </head>
 <body>
-    <h1>Roche Limit</h1>
+    <div class="test">
+        <script src="radiusScript.js"></script>
+        <h1>Roche Limit Calculator</h1>
+        <h3></h3>
 
-   
+        Radius of Main Body: <input id="objectRadius">
+        <p></p>
+        Primary Object Mass: <input id="primaryMass">
+        <p></p>
+        Density of Satellite: <input id="satelliteDensity">
+
+        <button onclick="Calculate()">Calculate</button>
+        
+        <h3 id="rTide"></h2>
+    <div>
+
+
+
+    <!--
+    <div class="planetpicker">
+        <h1>Pick a Planet</h1>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+    </div>
+    <img src="earth.jpg" alt="Earth" width="200" height="200">
+    <img src="moon.jpg" alt="Moon" draggable="true"  width="150" height="150">    
+    -->
+
     
     
 </body>
